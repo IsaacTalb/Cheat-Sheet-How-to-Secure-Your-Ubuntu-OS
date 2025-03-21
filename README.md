@@ -57,7 +57,7 @@ sudo nano /etc/pam.d/common-password
 ```
 3.  Add the following line to enforce strong passwords:
 ```bash
-password requisite pam_cracklib.so retry=3 minlen=12 difok=3\
+password requisite pam_cracklib.so retry=3 minlen=12 difok=3
 ```
 
 ## Audit Security with Lynis:
